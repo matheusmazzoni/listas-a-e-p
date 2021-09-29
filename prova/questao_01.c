@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 int main(){
-  int numero=0, soma=0, i;
+  int numero, i, soma=0;
 
-  printf("Digite o um numero inteiro:");
-  scanf("%d",&numero);
-    
+  do
+  {
+    printf("Digite o um numero inteiro e positivo:");
+    scanf("%d",&numero);
+  }while(numero<=0);
  
   for (i=1; i<numero; i++){
     if(numero%i==0)
