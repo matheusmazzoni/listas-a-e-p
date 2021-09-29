@@ -7,7 +7,7 @@ int main(){
   {
     printf("Digite o um numero inteiro e positivo:");
     scanf("%d",&numero);
-  }while(numero<=0);
+  }while(numero<0);
  
   for (i=1; i<numero; i++){
     if(numero%i==0)
