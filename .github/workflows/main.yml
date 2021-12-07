@@ -18,5 +18,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        if: env.GITHUB_REF_NAME == main
+        if: env.GITHUB_REF_NAME == 'main'
         run: echo $GITHUB_REF_NAME top
